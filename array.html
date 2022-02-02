@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array - playliste</title>
+  </head>
+  <body>
+    <h1>Playliste</h1>
+    <ul id="display">
+      <li>Bank Account</li>
+      <li>XSCAPE</li>
+      <li>Culture</li>
+      <li>Cocoon</li>
+      <li>Spiral</li>
+      <li>Shut Up</li>
+      <li>Billie Jean</li>
+      <li>Big Smoke</li>
+      <li>Betrayed</li>
+      <li>Circles</li>
+    </ul>
+
+    <script>
+      const playliste = [
+        "Bank Account",
+        "XSCAPE",
+        "Culture",
+        "Cocoon",
+        "Spiral",
+        "Shut Up",
+        "Billie Jean",
+        "Big smoke",
+        "Betrayed",
+        "Circles",
+      ];
+      //console.log(playliste[0]);
+      //console.log(playliste[9]);
+
+      playliste.forEach(visHvertElement);
+
+      function visHvertElement(tracks) {
+        console.log(tracks);
+      }
+    </script>
+  </body>
+</html>
