@@ -20,3 +20,11 @@ footer {
   display: flex;
   place-content: center;
 }
+
+.boxshadow {
+  box-shadow: 11px -7px 29px 0px rgba(94, 115, 204, 0.75);
+  -webkit-box-shadow: 11px -7px 29px 0px rgba(94, 115, 204, 0.75);
+  -moz-box-shadow: 11px -7px 29px 0px rgba(94, 115, 204, 0.75);
+  transition: 2s;
+  mix-blend-mode: difference;
+}
