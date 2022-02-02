@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  place-content: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 400px;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  place-content: center;
+}
